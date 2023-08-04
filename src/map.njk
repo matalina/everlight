@@ -1,0 +1,15 @@
+---
+layout: base.njk
+eleventyNavigation:
+  key: map
+  title: Map
+  order: 4
+---
+
+<h1>Map</h1>
+
+<ul>
+{%- for map in collections.map -%}
+  <li><a href="{{ map.url }}">{{map.data.title}}</a></li>
+{%- endfor -%}
+</ul>
