@@ -1,0 +1,15 @@
+---
+layout: base.njk
+eleventyNavigation:
+  key: adventures
+  title: Adventures
+  order: 3
+---
+<h1>Adventures</h1>
+
+<h2>The Book</h2>
+<ul>
+{%- for tag in collections['the-book'] -%}
+  <li><a href="{{ tag.url }}">{{tag.data.title}}</a> <small class="uppercase text-[.6rem] text-gray-400">pov: {{tag.data.pov}}</small></li>
+{%- endfor -%}
+</ul>

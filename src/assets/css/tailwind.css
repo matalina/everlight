@@ -1,0 +1,59 @@
+/* src/assets/css/tailwind.css*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  a {
+    @apply underline text-orange-600 hover:text-orange-700 focus:text-orange-700;
+  }
+  li {
+    @apply pl-6 list-disc list-inside;
+  }
+
+  h1 {
+    @apply text-7xl font-bold;
+    @apply text-red-700;
+  }
+  h2 {
+    @apply text-5xl font-bold;
+    @apply text-orange-600
+  }
+  h3 {
+    @apply text-3xl font-bold;
+    @apply text-green-600;
+  }
+  h4 {
+    @apply text-2xl font-bold;
+    @apply text-blue-600;
+  }
+  h5 {
+    @apply text-xl font-bold;
+  }
+  h6 {
+    @apply text-lg font-bold;
+  }
+
+  p, h1, h2, h3, h4, h5, h6, ol, ul {
+    @apply mb-5;
+  }
+  li ol, li ul {
+    @apply mb-0;
+  }
+  table {
+    @apply w-full;
+  }
+
+  td, th {
+    @apply p-2;
+  }
+
+  strong, b {
+    @apply text-amber-500;
+  }
+
+  em, i {
+    @apply text-blue-600;
+  }
+
+}
