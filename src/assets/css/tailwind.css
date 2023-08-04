@@ -9,8 +9,11 @@ html {
 
 
 @layer components {
+  html {
+    @apply bg-neutral-900 text-gray-400;
+  }
   a {
-    @apply underline text-orange-600 hover:text-orange-700 focus:text-orange-700;
+    @apply underline text-orange-300 hover:text-orange-500 focus:text-orange-500;
   }
   li {
     @apply pl-6 list-disc list-inside;
@@ -22,7 +25,7 @@ html {
   }
   h2 {
     @apply text-5xl font-bold;
-    @apply text-orange-600
+    @apply text-orange-700
   }
   h3 {
     @apply text-3xl font-bold;
@@ -30,7 +33,7 @@ html {
   }
   h4 {
     @apply text-2xl font-bold;
-    @apply text-blue-600;
+    @apply text-blue-400;
   }
   h5 {
     @apply text-xl font-bold;
@@ -54,11 +57,11 @@ html {
   }
 
   strong, b {
-    @apply text-amber-500;
+    @apply text-amber-200;
   }
 
   em, i {
-    @apply text-blue-600;
+    @apply text-blue-300;
   }
 
 }
