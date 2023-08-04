@@ -1,7 +1,12 @@
 /* src/assets/css/tailwind.css*/
+html {
+  font-size: 20px;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 @layer components {
   a {

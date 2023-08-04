@@ -1,5 +1,9 @@
 /* src/assets/css/tailwind.css*/
 
+html {
+  font-size: 20px;
+}
+
 /* ! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com*/
 
 /*
@@ -126,7 +130,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: JetBrains Mono, monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -813,8 +817,12 @@ em, i {
   text-align: justify;
 }
 
+.font-journal {
+  font-family: Dosis, sans-serif;
+}
+
 .font-mono {
-  font-family: JetBrains Mono, monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-2xl {
