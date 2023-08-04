@@ -9,7 +9,7 @@ eleventyNavigation:
 
 <h2>The Book</h2>
 <ul>
-{%- for tag in collections['the-book'] -%}
+{%- for tag in collections.theBook -%}
   <li><a href="{{ tag.url }}">{{tag.data.title}}</a> <small class="uppercase text-[.6rem] text-gray-400">pov: {{tag.data.pov}}</small></li>
 {%- endfor -%}
 </ul>

@@ -22,6 +22,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/game/images");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
+  eleventyConfig.addCollection("theBook", function(collectionApi) {
+    return collectionApi.getFilteredByTag("the-book").sort((a,b) => {
+
+      if(a.page.url > b.page.url) return 1;
+      if(a.page.url < b.page.url) return -1;
+      return 0;
+    });
+  });
+
   return {
     dir: {
       input: "src",
