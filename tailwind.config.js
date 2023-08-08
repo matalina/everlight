@@ -5,7 +5,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        journal: ['Dosis', 'sans-serif'],
+        journal: ['Roboto Condensed', 'sans-serif'],
+        alex: ['Gloria Hallelujah', 'cursive'],
+        nox: ['Architects Daughter','cursive']
       }
     },
   },

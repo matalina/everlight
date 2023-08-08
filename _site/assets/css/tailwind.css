@@ -877,12 +877,20 @@ em, i {
   text-align: justify;
 }
 
+.font-alex {
+  font-family: Gloria Hallelujah, cursive;
+}
+
 .font-journal {
-  font-family: Dosis, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
 }
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-nox {
+  font-family: Architects Daughter, cursive;
 }
 
 .text-2xl {
