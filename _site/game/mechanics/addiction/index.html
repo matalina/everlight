@@ -77,7 +77,7 @@
 <p>Addiction is a cumulative and decaying statistic.  Addiction count is added per an addictive, typically a specific drug or activity.  A person may be addicted to multiple addictives but for ease of use they may feed their addiction with any addictive drug or activity to stave off withdrawal symptoms (all tasks are hindered).</p>
 <p>An addiction decays over time at a rate of 1 point every ten hour rest (over a 24 hour period).</p>
 <p>A Level 0 addictive adds to your addiction by 1 but does not have withdrawal symptoms.</p>
-<p>If a full cycle is completed (consumed, high, hangover(if applicable), ten hour rest), the addiction stat is typically reduced by the addictive level / 2 upon completion of the ten hour rest unless otherwise stated.</p>
+<p>If a full cycle is completed (consumed, high, hangover(if applicable), ten hour rest), the addiction stat is typically reduced by the addictive level / 2 upon completion of the ten hour rest unless otherwise stated. (This happens after consumption of an addictive)</p>
 <p>An Addiction Stat above 10 begins to cause additional affects on the user.  Roll for an additional effect every 5th level beyond (and starting at) 10.  The effects are cumulative with themselves and withdrawal symptoms.</p>
 <table>
 <thead>
@@ -123,7 +123,6 @@
 <p>An Addiction Stat at 25 or above moves the user down the damage track to Impaired.  A user may only recover from this damage if their addiction decays to 20 or below.</p>
 <p>An addiction at 30 or above moves you down the damage track to Debilitated. It is highly recommended you seek professional treatment.  A user may only recover from this damage if their addiction decays to 20 naturally or with professional treatment.</p>
 <p><strong>Professional Treatment:</strong> An addict may seek professional treatment at a medical facility (or with an occult expert).  The rate at which the addiction decays is facility/program based.  Modern medical treatments typically take at minimum 1 week to decay to safe levels.  Occult means can be immediate, but they can be expensive.</p>
-<p><strong>Withdrawal:</strong> All tasks are hindered until the next hit or when a ten hour rest reduces your addiction to 0.</p>
 <h2>Addictives</h2>
 <p>A general rule of thumb for addictives is to roll a 1d6 for the addictive's level. The level is added to the addiction, and half the level rounded down is the decay after a completed cycle.</p>
 <table>
@@ -145,11 +144,18 @@
 <td>A Typical Hangover</td>
 </tr>
 <tr>
+<td>Caffeine</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td>Lethargic</td>
+</tr>
+<tr>
 <td>Cocaine</td>
 <td style="text-align:center">8</td>
 <td style="text-align:center">8</td>
 <td style="text-align:center">3</td>
-<td>Immediate Withrdrawal</td>
+<td>Immediate Withdrawal</td>
 </tr>
 <tr>
 <td>Ghouling</td>
@@ -174,7 +180,7 @@
 </tr>
 <tr>
 <td>Marijuana</td>
-<td style="text-align:center">0</td>
+<td style="text-align:center">3</td>
 <td style="text-align:center">1</td>
 <td style="text-align:center">0</td>
 <td>No Withdrawal</td>
@@ -193,19 +199,47 @@
 <td style="text-align:center">1</td>
 <td>see item listing</td>
 </tr>
+<tr>
+<td>Tobacco/Nicotine</td>
+<td style="text-align:center">6</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">1</td>
+<td>No Hangover</td>
+</tr>
 </tbody>
 </table>
-<p><strong>Letting:</strong> An addictive action in which a being allows a vampire to feed from their veins. Letters (those who indulge in this addictive) are typically in it for the sexual and sensual feels from the vampire bites, some however enjoy the pain that can be caused.  Letting has no duration or benefits other than the pleasure of the immediate action. Immediately after the feeding the Letter is Lethargic.</p>
-<p><strong>Ghouling:</strong> An addictive action in which a being drinks the blood from vampires.  Ghouling is highly addictive. Like Letting Ghouling is highly sexual and sensual in nature.  For ten hours all tasks are eased but when the ten hours are up the ghoul is <strong>Diminished</strong> and in a state of withdrawal.</p>
-<p><strong>Diminished:</strong> All tasks are hindered by two levels (includes the typical withdrawal symptoms -- not cumulative with withdrawal).</p>
-<p><strong>Lethargic:</strong> All might tasks are hindered.</p>
-<p><strong>A Typical Hangover:</strong> All defense rolls are hindered.</p>
+<h3>Types of Addictives</h3>
+<h4>Caffiene</h4>
+<h4>Ghouling</h4>
+<p>An addictive action in which a being drinks the blood from vampires.  Ghouling is highly addictive. Like Letting Ghouling is highly sexual and sensual in nature.  For ten hours all tasks are eased but when the ten hours are up the ghoul is <strong>Diminished</strong> and in a state of withdrawal.</p>
+<h4>Letting</h4>
+<p>An addictive action in which a being allows a vampire to feed from their veins. Letters (those who indulge in this addictive) are typically in it for the sexual and sensual feels from the vampire bites, some however enjoy the pain that can be caused.  Letting has no duration or benefits other than the pleasure of the immediate action. Immediately after the feeding the Letter is <strong>Lethargic</strong>.</p>
+<h4>Recreational Drugs</h4>
+<p>Recreational drugs are drugs that have no benefits associated with them that are common among humans as well as supernatural beings.  Drugs such as:</p>
+<ul>
+<li>Alcohol</li>
+<li>Cocaine</li>
+<li>Heroin</li>
+<li>Marijuana</li>
+<li>Meth</li>
+<li>Nepenthe</li>
+<li>Tobacco/Nicotine</li>
+</ul>
+<h3>Hangover and Withdrawal Conditions</h3>
+<h4>A Typical Hangover</h4>
+<p>All defense rolls are hindered.</p>
+<h4>Diminished</h4>
+<p>All tasks are hindered by two levels (includes the typical withdrawal symptoms -- not cumulative with withdrawal).</p>
+<h4>Lethargic</h4>
+<p>All might tasks are hindered.</p>
+<h4>Withdrawal</h4>
+<p>All tasks are hindered until the next hit or when a ten hour rest reduces your addiction to 0.</p>
 
       </main>
       <footer class="text-xs text-center p-3 border-t border-gray-400 mt-5 text-gray-400">
         <p>Numenera, the Cypher System, No Thank You, Evil!, Invisible Sun, and their respective logos are trademarks of Monte Cook Games, LLC in the U.S.A. and other countries. All Monte Cook Games characters and character names, and the distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC. Content derived from Monte Cook Games publications is &copy; 2013-2023 Monte Cook Games, LLC. -- <a href="/disclaimers">See full Disclaimer and Open Gaming License</a>
         </p>
-        <p>&copy; AJ Hunter 2013-2023 | Last update: 8/4/2023, 4:14:42 PM</p>
+        <p>&copy; AJ Hunter 2013-2023 | Last update: 8/8/2023, 1:49:51 PM</p>
       </footer>
     </div>
   </body>
