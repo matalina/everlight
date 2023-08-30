@@ -1,2 +1,4 @@
 node_modules/
 **/codealike.json
+# Local Netlify folder
+.netlify

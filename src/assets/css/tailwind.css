@@ -42,7 +42,7 @@ html {
     @apply text-lg font-bold;
   }
 
-  p, h1, h2, h3, h4, h5, h6, ol, ul {
+  p, h1, h2, h3, h4, h5, h6, ol, ul, hr, blockquote {
     @apply mb-5;
   }
   li ol, li ul {
@@ -51,7 +51,6 @@ html {
   table {
     @apply w-full;
   }
-
   td, th {
     @apply p-2;
   }
@@ -62,6 +61,14 @@ html {
 
   em, i {
     @apply text-blue-300;
+  }
+
+  blockquote {
+    @apply ml-10 py-3 pl-5 italic border-l-4 border-teal-400;
+  }
+
+  blockquote p:last-child {
+    @apply mb-0;
   }
 
 }
